@@ -18,10 +18,14 @@ public class DisplayMessageActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String message = intent.getStringExtra("EXTRA_MESSAGE");
         String numStars = intent.getStringExtra("NUM_STARS");
+        String weightStr = intent.getStringExtra("WEIGHT_VALUE");
 
         TextView textView = findViewById(R.id.textView);
         TextView textView4 = findViewById(R.id.textView4);
+        TextView textView2 = findViewById(R.id.textView2);
+
         textView.setText(message);
         textView4.setText(numStars);
+        textView2.setText(weightStr);
     }
 }

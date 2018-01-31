@@ -2,4 +2,5 @@
     <string name="app_name">ExerciseCompanion</string>
     <string name="button_confirm">Confirm</string>
     <string name="input_name">Enter name</string>
+    <string name="input_weight">Enter weight in lbs.</string>
 </resources>

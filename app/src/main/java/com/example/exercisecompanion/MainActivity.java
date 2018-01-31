@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.RatingBar;
 
-import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,12 +19,19 @@ public class MainActivity extends AppCompatActivity {
 
     public void sendMessage(View view){
         Intent intent = new Intent(this, DisplayMessageActivity.class);
-        EditText editText = (EditText) findViewById(R.id.editText);
-        RatingBar ratingBar = (RatingBar) findViewById(R.id.ratingBar2);
+
+        EditText editText = findViewById(R.id.editText);
+        RatingBar ratingBar = findViewById(R.id.ratingBar2);
+        EditText editText2 = findViewById(R.id.editText2);
+
         String message =  editText.getText().toString();
         String numStars = String.valueOf(ratingBar.getRating());
+        String weightStr = editText2.getText().toString();
+
         intent.putExtra("NUM_STARS",numStars);
         intent.putExtra("EXTRA_MESSAGE",message);
+        intent.putExtra("WEIGHT_VALUE",weightStr);
+
         startActivity(intent);
     }
 }
