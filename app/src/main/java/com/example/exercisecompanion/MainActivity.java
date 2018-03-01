@@ -23,14 +23,17 @@ public class MainActivity extends AppCompatActivity {
         EditText editText = findViewById(R.id.editText);
         RatingBar ratingBar = findViewById(R.id.ratingBar2);
         EditText editText2 = findViewById(R.id.editText2);
+        EditText editText3 = findViewById(R.id.editText3);
 
         String message =  editText.getText().toString();
         String numStars = String.valueOf(ratingBar.getRating());
         String weightStr = editText2.getText().toString();
+        String heightStr = editText3.getText().toString();
 
         intent.putExtra("NUM_STARS",numStars);
         intent.putExtra("EXTRA_MESSAGE",message);
         intent.putExtra("WEIGHT_VALUE",weightStr);
+        intent.putExtra("HEIGHT_VALUE",heightStr);
 
         startActivity(intent);
     }
