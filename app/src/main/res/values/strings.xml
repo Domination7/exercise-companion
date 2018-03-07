@@ -3,5 +3,6 @@
     <string name="button_confirm">Confirm</string>
     <string name="input_name">Enter name</string>
     <string name="input_weight">Enter weight in lbs.</string>
-    <string name="input_height">Enter height in feet</string>
+    <string name="input_height_ft">Height (ft)</string>
+    <string name="input_height_in">Height (in)</string>
 </resources>

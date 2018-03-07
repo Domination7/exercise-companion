@@ -4,4 +4,9 @@
     <color name="colorPrimaryDark">#303f9f</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorStarsText">#f4e842</color>
+    <color name="underweight">#41bef4</color>
+    <color name="normal">#42f442</color>
+    <color name="overweight">#eef441</color>
+    <color name="obese">#f48241</color>
+    <color name="extremeObese">#f44141</color>
 </resources>
