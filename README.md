@@ -8,8 +8,8 @@ TODO:
 - [ ] Add map integration
 - [x] Create usable UI
 ## This is the first page without information
-![alt text](introPage.png "Intro Page")
+![alt text](introPage.PNG "Intro Page")
 ## This is the first page with information filled in
-![alt text](introPageWithInfo.png "Intro Page with Info")
+![alt text](introPageWithInfo.PNG "Intro Page with Info")
 ## This is the second page with the given information
-![alt text](infoPage.png "Informationl Page")
+![alt text](infoPage.PNG "Informationl Page")
